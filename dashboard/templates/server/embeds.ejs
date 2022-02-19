@@ -1,18 +1,22 @@
-<%- include("../includes/head", { bot, user, path, description, title: guild.name + " dashboard", twitter, url }) %>
-<% if (guild.icon) {
- iconurl = `https://cdn.discordapp.com/icons/${guild.id}/${guild.icon}`;
-} else {
- iconurl = `${secure_connection + domain}/pics/invaild-avatar.png`;
-}
-%>
-<% const checked = "embeds" %>
-<%- include("../includes/side_nav", { bot, user, path, guild_name: guild.name, guild_icon: iconurl, checked_nav: checked, guild }) %>
-<div class="content">
-<div class="guild">
-<img class="server-image img" src="<%= iconurl %>" alt="<%= guild.name %>"/>
-<h1 class="server-name"><%= guild.name %></h1>
-<p class="server-description"><%= guild.description %></p>
-<hr>
-<h2>Soon!</h2>
-</div>
-<%- include("../includes/footer") %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon"
+    type="image/png"
+    href="https://<%=hostname%>/logo.png">
+<title><%= title %></title>
+<link rel="stylesheet" type="text/css" href="https://<%= hostname %>/css/style2.css">
+<% if (analitics) { %>
+<%- include('./analytics.ejs') %>
+<% } %>
+<%- include("./seo", { bot, user, path, description, title, url, image:`${https}${hostname}/logo.png`}) %>
+</head>
+<body>
+<script type="text/javascript">var preload = document.createElement('div'); preload.className = "preloader"; preload.innerHTML = '</div><div class="spinner"></div>'; document.body.appendChild(preload); window.addEventListener('load', function() { preload.className +=  ' fade'; setTimeout(function(){ preload.style.display = 'none'; },600); 
+})</script>
+<noscript><div class="no-js">To view the page please enable javascript in your browser.</div></noscript>
+<%- include("./nav2", { bot, user, path, url, image, name, tag }) %>
+<div class="blur" id="body-blur"></div>
+<%- title === "Dashboard" ? "" : "" %>
