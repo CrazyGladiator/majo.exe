@@ -1,30 +1,30 @@
 module.exports = {
  // Main config
  // author: "Majonez.exe#3957", // ->> Banned account
- author: "Majonez.exe#2495", // Bot owner
- author_website: "https://igorkowalczyk.github.io", // Owner website
+ author: "Crazy_Gladiator#5876", // Bot owner
+ author_website: "https://crazy.community", // Owner website
  // owner_id: "440200028292907048", // ->> Banned account
- owner_id: "544164729354977282", // Owner ID
- description: "Majo.exe - Discord bot for Fun, Memes, Images, Giveaway, Economy, Anime and NSFW! Majo serve over 100 commands!", // Bot description
- support_server: "https://discord.gg/bVNNHuQ", // Support server invite
- support_server_id: "666599184844980224", // Support server ID
- status: "https://bit.ly/majo-status", // Status page link
+ owner_id: "678565966702968852", // Owner ID
+ description: "Majo.exe - Discord bot for Fun, Memes, Images, Giveaway, Economy and Anime! Majo serve over 100 commands!", // Bot description
+ support_server: "https://crazy.community/discord", // Support server invite
+ support_server_id: "906569598621597817", // Support server ID
+ status: "https://stats.uptimerobot.com/2A7D4FVAL4", // Status page link
  status_page: {
   only_link: false, // Display only link to external status page
   embed: "https://wl.hetrixtools.com/r/b327a38f4c3d4cdb1068dfe61e1b2144/", // External status page link
  },
  default_database: process.env.DEFAULT_DB, // Default Database [mysql | mongo] [WIP!]
  use_text_commands: true, // Allow usage of deprecated text commands [WIP]
- twitter: "@majonezexe", // Owner twitter
- github: "igorkowalczyk", // Github repository owner
- github_repo: "majo.exe", // Github repository
+ //twitter: "@majonezexe", // Owner twitter
+ //github: "igorkowalczyk", // Github repository owner
+ //github_repo: "majo.exe", // Github repository
  about_bot: "... Soon!", // About Bot
  about_dev: "... Soon!", // About Bot Developer
  donation_perks: "", // Sponsors perks
- patreon: "igorkowalczyk", // Sponsor link
- ko_fi: "igorkowalczyk", // Sponsor link
- buymeacoffee: "rkjha", // Sponsor link
- open_collective: "igorkowalczyk", // Sponsor link
+ patreon: "CrazyComunity", // Sponsor link
+ ko_fi: "crazycommunity", // Sponsor link
+ buymeacoffee: "CrazyCommunity", // Sponsor link
+ open_collective: "crazy-community", // Sponsor link
  scopes: "bot%20applications.commands", // Dashboard scopes
  permissions: "4294967287", // Default invite perms
  suggestions_channel: "838092194530852884", // Suggestions channel

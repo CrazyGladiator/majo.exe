@@ -13,7 +13,7 @@ module.exports = {
   },
  },
  show_errors_on_no_command: true, // Show errors when no command was found. Example: {prefix} help -> output | {prefix} no_command -> nothing DEPRECATED
- rickroll: false, // Secret option ;>
+ rickroll: true, // Secret option ;>
  display_status: "online", // online | idle | invisible | dnd
  help_embed: {
   grid: true, // Use grid for fields in help command embed
