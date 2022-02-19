@@ -1,11 +1,11 @@
 module.exports = {
  // Stauts config
  options: {
-  type: "dynamic", // dynamic | static
+  type: "static", // dynamic | static
  },
  static: {
   // Only if options.stype = static
-  message: `tralalala`,
+  message: `cc help || By Crazy_Gladiator`,
   type: "PLAYING", // PLAYING | STREAMING | LISTENING | WATCHING
  },
  dates: {
